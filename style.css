@@ -1,0 +1,64 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+body
+{
+    background: pink;
+    background-size:cover;
+    background-position: center;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.menu-bar
+{
+    background: #228AF1 ;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:#fff;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    color: white;
+}
+.active, .menu-bar ul li:hover {
+    background: #B431AE;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #228AF1;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    color: #228AF1;
+}
+https://media.istockphoto.com/photos/happy-women-with-shopping-bags-walking-along-city-street-picture-id1092636334?k=20&m=1092636334s=170667a&w=0&h=uXmHPa9QZyB6F_5DCNfq_C10u624RxWqnqF7sKxflOQ=" alt="Car" style="width:100%

@@ -1,0 +1,17 @@
+.img{
+    margin-left: 100px;
+}
+td:hover{
+    background-color: rgb(160, 236, 178);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}  
+.border{
+    margin-left: 100px;
+    font-size: 20px;
+}
